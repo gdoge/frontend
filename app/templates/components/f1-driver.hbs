@@ -1,0 +1,9 @@
+<h2>Driver</h2>
+<p>Name: {{f1driver.name}}</p>
+<p>LastName: {{f1driver.lastName}}</p>
+<p>is a great driver</p>
+{{#if selected}}
+<p>cicked!!!!!!</p>
+{{else}}
+  <button {{action "click"}}>Show image</button>
+{{/if}}
